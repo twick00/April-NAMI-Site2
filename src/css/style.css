@@ -1,0 +1,15 @@
+body {
+  background-color: #808080;
+}
+#mobile-nav a:hover {
+  text-shadow: 1px 1px #000;
+}
+#mobile-image-container h1 {
+  font-family: 'Raleway', sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+}
+#mobile-image-container {
+  background-image: url("../images/IMG_9042.jpg");
+  height: 100vh;
+}
