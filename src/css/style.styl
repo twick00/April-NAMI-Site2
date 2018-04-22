@@ -5,9 +5,24 @@ body
   text-shadow: 1px 1px black
 #mobile-image-container h1 
   font-family: 'Raleway', sans-serif;
-  position: sticky
+  // position: fixed
   // font-family: 'Playfair Display', serif;
-
+ul
+  text-decoration: none
+  list-style:none;
+  padding: 0px
+hr
+  margin: 0px
+  border: 0px;
+  height: 1px;
+  background-image: linear-gradient(to right, #3897d8, #3C6E71, #3897d8);
 #mobile-image-container
   background-image: url("../images/IMG_9042.jpg")
   height: 100vh
+  position: relative
+.image-container
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:-moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;  
+  -o-border-image:-o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;

@@ -6,10 +6,26 @@ body {
 }
 #mobile-image-container h1 {
   font-family: 'Raleway', sans-serif;
-  position: -webkit-sticky;
-  position: sticky;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0px;
+}
+hr {
+  margin: 0px;
+  border: 0px;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#3897d8), color-stop(#3c6e71), to(#3897d8));
+  background-image: linear-gradient(to right, #3897d8, #3c6e71, #3897d8);
 }
 #mobile-image-container {
   background-image: url("../images/IMG_9042.jpg");
   height: 100vh;
+  position: relative;
+}
+.image-container {
+  -o-border-image: linear-gradient(to top, #000, rgba(0,0,0,0)) 1 100%;
+     border-image: -webkit-gradient(linear, left bottom, left top, from(#000), to(rgba(0,0,0,0))) 1 100%;
+     border-image: linear-gradient(to top, #000, rgba(0,0,0,0)) 1 100%;
 }
